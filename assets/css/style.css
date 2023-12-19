@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    
+}
+
+.header {
+    padding: 20px;
+    font-family:sans-serif ;
+    background-color: blueviolet;
+    color: white;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.Contact-Me h2 {
+    flex-wrap: wrap;
+    padding-top: 25px;
+    
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 25px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.Contact-Me nav {
+    padding-bottom: 15px;
+    margin-left: 300px;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.Contact-Me nav ul li {
+    display: inline-block;
+    margin-left: 125px;
+    padding-top: 50px;  
+}
+
+.filler {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(../images/Gradient-filler-image.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.about-me {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.about-me-header {
+    border-right: 5px solid green;
+    padding-right: 20px;
+    
+
+}
+
+.Contact-me-header {
+    border-right: 5px solid green;
+    padding-right: 20px;
+    height:100px;
+
+}
+
+.about-me h2 {
+    padding-left: 50px;
+}
+
+
+
+.Work h2 {
+    margin-left: 69px;
+    padding-left: 50px;
+}
+
+.Contact-Me h2 {
+    margin-left: 22.5px;
+    
+}
+
+.about-me p {
+
+    padding-left: 250px;
+    
+    
+}
+
+.Work {
+    display: flex;
+    position: relative;
+    
+}
+
+.Work-1 {
+    justify-content: space-between;
+
+}
+
+.Work-2 {
+    justify-content: space-between;
+
+}
+
+.Work-header {
+    width: 200px;
+    border-right: 5px solid green;
+    height: 700px;
+    padding-bottom: 0;
+}
+
+.Work-header-2 {
+    width: 187px;
+    border-right: 5px solid green;
+    height: 300px;
+    color: white;
+
+
+}
+
+.Work a {
+    width: 100%;
+}
+
+.Contact-Me {
+    padding-bottom: 30px;
+    padding-top: 25px;
+    display: flex;
+
+    
+
+}
+
+.about-me h2{
+    font-size: 40px;
+}
+
+.Work h2 {
+    font-size: 40px;
+}
+
+.Contact-Me h2 {
+    font-size: 40px;
+}
+
+.Work a img {
+    width: 75%;
+    border: 5px solid blue;
+    align-content: center;
+    
+    
+} 
+
+.Work img {
+    width: 40%;
+    border: 5px solid blue;
+    align-content: center;
+
+}
+
+.Work button {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 15px;
+    background: none;
+    border: none;
+    display: flex;
+    display: inline-block;
+    padding-left: 15px;   
+}
+
+.Work button:hover {
+    opacity: 75%;
+}
+
+.overlay-title {
+    position: absolute;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    left: 455px;
+    bottom: 50px;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .header { 
+        background-color: magenta;
+    }
+    
+}
+
+
+
+
