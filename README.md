@@ -1,4 +1,4 @@
-# Portfolio-Challenge
+# fluffy.castle
 
 ## Module 2 Challenge!
 
@@ -33,7 +33,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## Link to Deployed Application!
-
+[Link to Deployed Application!](https://jacksonjjones.github.io/fluffy.castle/)
 ## Screenshot of Deployed Application!
 
 ![Screenshot of Deployed App](<assets/images/Screenshot 2023-12-21 at 9.44.43 PM.png>)
